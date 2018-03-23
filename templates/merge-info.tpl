@@ -1,5 +1,4 @@
-<p id="xx">main: '{$main_contact_subtype}'</p>
-<p >other: '{$other_contact_subtype}'</p>
+<p>Note: Original contact has types <em>'{$main_contact_subtype}'</em>. Duplicate contact has types <em>'{$other_contact_subtype}'</em>.</p>
 {if $other_contact_subtype && $main_contact_subtype != $other_contact_subtype}
   <script>
   CRM.$(function() {ldelim}
